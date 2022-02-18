@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  flex-wrap: wrap;
+  background: url("Images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  width: 28%;
+  margin: 0;
+  padding: 0;
+  border-radius: 1rem;
+}
+.hero {
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+h2 {
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: hsl(223, 47%, 23%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 15px -3px hsl(244, 48%, 83%);
+}
+.more-text {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  padding: 0 6rem;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.annual-plan-box {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 80%;
+  /* align-self: center; */
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-radius: 0.9rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.two-texts {
+  /* background-color: blanchedalmond; */
+  padding-left: 1rem;
+  display: flex;
+  line-height: 1.3rem;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+.text-1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.text-2 {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.9rem;
+}
+.box-part-1 {
+  display: flex;
+  /* background-color: yellow; */
+  margin-left: 1rem;
+}
+.box-part-2 {
+  /* background-color: pink; */
+  text-decoration: underline;
+  align-self: center;
+  margin-right: 1rem;
+  color: hsl(245, 75%, 52%);
+  flex-wrap: wrap;
+
+  font-weight: 900;
+}
+.box-part-2:hover {
+  color: hsla(239, 76%, 64%, 0.856);
+  cursor: pointer;
+  text-decoration: none;
+}
+.music-img {
+  align-self: center;
+}
+.blue-box {
+  background-color: hsl(245, 75%, 52%);
+  /* box-shadow: 0px 10px hsla(234, 25%, 78%, 0.281); */
+  width: 80%;
+  padding: 0.7rem 0;
+  text-align: center;
+  border-radius: 0.8rem;
+  color: hsl(225, 100%, 98%);
+  font-weight: 900;
+  font-size: 0.9rem;
+  box-shadow: 0 8px 35px -6px hsl(245, 65%, 64%);
+}
+.blue-box:hover {
+  background-color: hsla(239, 76%, 64%, 0.856);
+  cursor: pointer;
+}
+.white-box {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.white-box:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* responsive */
+@media (min-width: 175px) and (max-width: 1440px) {
+  .container {
+    width: 22.375rem;
+  }
+  .annual-plan-box {
+    font-size: 0.8rem;
+  }
+  .two-texts {
+    font-size: 0.9rem;
+  }
+  .more-text {
+    padding: 0 4rem;
+  }
+}
