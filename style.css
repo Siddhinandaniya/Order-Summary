@@ -38,6 +38,7 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0 10px 15px -3px hsl(244, 48%, 83%);
 }
 .more-text {
   font-size: 0.8rem;
@@ -110,6 +111,7 @@ h2 {
   color: hsl(225, 100%, 98%);
   font-weight: 900;
   font-size: 0.9rem;
+  box-shadow: 0 8px 35px -6px hsl(245, 65%, 64%);
 }
 .blue-box:hover {
   background-color: hsla(239, 76%, 64%, 0.856);
@@ -139,7 +141,7 @@ h2 {
 /* responsive */
 @media (min-width: 175px) and (max-width: 1440px) {
   .container {
-    width: 23.375rem;
+    width: 22.375rem;
   }
   .annual-plan-box {
     font-size: 0.8rem;
@@ -148,6 +150,6 @@ h2 {
     font-size: 0.9rem;
   }
   .more-text {
-    padding: 0 5rem;
+    padding: 0 4rem;
   }
 }
