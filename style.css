@@ -17,7 +17,7 @@ body {
 }
 .container {
   background-color: white;
-  width: 25%;
+  width: 28%;
   margin: 0;
   padding: 0;
   border-radius: 1rem;
@@ -42,7 +42,7 @@ h2 {
 .more-text {
   font-size: 0.8rem;
   line-height: 1.3rem;
-  padding: 0 4rem;
+  padding: 0 6rem;
   text-align: center;
   color: hsl(224, 23%, 55%);
 }
@@ -118,9 +118,9 @@ h2 {
 .white-box {
   color: hsl(224, 23%, 55%);
   font-size: 0.9rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-weight: 900;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 }
 .white-box:hover {
   cursor: pointer;
@@ -139,12 +139,15 @@ h2 {
 /* responsive */
 @media (min-width: 175px) and (max-width: 1440px) {
   .container {
-    width: 20.375rem;
+    width: 23.375rem;
   }
   .annual-plan-box {
     font-size: 0.8rem;
   }
   .two-texts {
     font-size: 0.9rem;
+  }
+  .more-text {
+    padding: 0 5rem;
   }
 }
