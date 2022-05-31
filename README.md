@@ -22,6 +22,7 @@ This is my third Frontend Mentor project. I've created this project using CSS3 a
 ### Links
 
 - Live Site URL: https://Siddhie.github.io/Order-Summary/
+- Solution URL: [https://www.frontendmentor.io/solutions/nftpreviewcard-using-html5-and-css3-AmY9EuZiz](https://www.frontendmentor.io/solutions/responsive-ordersummary-Z-7TQ08l2)
 
 ## Author
 
